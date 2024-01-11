@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore my portfolio and discover how I develop user-friendly websites and deliver exceptional digital experiences. Let's collaborate and bring your ideas to life."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta
+      property="og:title"
+      content="Harvey Taningco | Frontend Web Developer"
+    />
+    <meta
+      property="og:description"
+      content="Explore my portfolio and discover how I develop user-friendly websites and deliver exceptional digital experiences. Let's collaborate and bring your ideas to life."
+    />
+    <!-- <meta property="og:image" content="https://www.example.com/image.jpg"> -->
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="/images/logo.png" />
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="./swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Harvey Taningco | Frontend Web Developer</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a
+          href="https://github.com/CheesePandesal"
+          target="_blank"
+          class="nav__logo"
+          >@Pandesal27</a
+        >
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="hero container">
+          <img
+            src="images/hero-img.png"
+            alt="Profile Picture"
+            class="hero__img"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          />
+          <h2 class="hero__subtitle" data-aos="fade-up" data-aos-delay="600">
+            Hi, I'm Harvey 👋
+          </h2>
+          <h1 class="hero__title" data-aos="fade-up" data-aos-delay="700">
+            FRONT-END <br />
+            WEB DEVELOPER.
+          </h1>
+          <p class="hero__description" data-aos="fade-up" data-aos-delay="800">
+            A passionate and self-taught <strong>Frontend</strong>
+            web developer who constantly strives to become a better version of
+            myself each day.
+          </p>
+          <a
+            href="#contact"
+            class="button button--flex home__button"
+            data-aos="fade-up"
+            data-aos-delay="800"
+          >
+            Contact Me<i class="uil uil-message button__icon"></i>
+          </a>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="200">
+          About Me
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="200"
+          >Here's how i became hooked to coding</span
+        >
+
+        <div class="about__container container grid">
+          <div class="about__image">
+            <img
+              src="./images/about-image.JPG"
+              alt="Picture of Harvey Taningco"
+              class="about__img"
+              data-aos="fade-right"
+              data-aos-delay="700"
+            />
+          </div>
+          <div class="about__data" data-aos="fade-right" data-aos-delay="1200">
+            <p class="about__description">
+              My journey in programming began in 2022 during my senior year in
+              high school. While working on a research project focused on
+              marketing and business, my group needed a website to showcase our
+              experimental product. Since no one in our team had any programming
+              experience, I took it upon myself to learn web development. I dove
+              into online resources, particularly YouTube tutorials, to grasp
+              the fundamentals of HTML and CSS. As I delved deeper, I discovered
+              the immense potential of coding. The ability to create something
+              useful and impactful fascinated me, and I became hooked on
+              programming.
+            </p>
+
+            <div class="about__buttons">
+              <a class="button button--flex home__button">
+                Download CV<i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="200">
+          Skills
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="200"
+          >My technical skills</span
+        >
+        <div class="flex-container">
+          <div class="app__skills-container" style="text-align: center">
+            <div class="app__skills-list">
+              <!--==================== mga skills dito ====================-->
+              <div
+                class="app__skills-item app__flex"
+                data-aos="fade-down"
+                data-aos-delay="500"
+              >
+                <div class="app__flex">
+                  <img src="images/css-logo.png" alt="CSS Logo" />
+                </div>
+                <p class="p-text skills-text">CSS</p>
+              </div>
+              <div
+                class="app__skills-item app__flex"
+                data-aos="fade-down"
+                data-aos-delay="600"
+              >
+                <div class="app__flex">
+                  <img src="images/html-logo.png" alt="" />
+                </div>
+                <p class="p-text skills-text">HTML</p>
+              </div>
+              <div
+                class="app__skills-item app__flex"
+                data-aos="fade-down"
+                data-aos-delay="700"
+              >
+                <div class="app__flex">
+                  <img src="images/tailwind-logo.png" alt="" />
+                </div>
+                <p class="p-text skills-text">Tailwind</p>
+              </div>
+              <div
+                class="app__skills-item app__flex"
+                data-aos="fade-down"
+                data-aos-delay="800"
+              >
+                <div class="app__flex">
+                  <img src="images/javascript-logo.png" alt="" />
+                </div>
+                <p class="p-text skills-text">Javascript</p>
+              </div>
+              <div
+                class="app__skills-item app__flex"
+                data-aos="fade-down"
+                data-aos-delay="900"
+              >
+                <div class="app__flex">
+                  <img src="images/react-js-logo.png" alt="" />
+                </div>
+                <p class="p-text skills-text">React JS</p>
+              </div>
+              <div
+                class="app__skills-item app__flex"
+                data-aos="fade-down"
+                data-aos-delay="1000"
+              >
+                <div class="app__flex">
+                  <img src="images/bootstrap-logo.png" alt="Bootstrap Logo" />
+                </div>
+                <p class="p-text skills-text">Bootstrap</p>
+              </div>
+              <div
+                class="app__skills-item app__flex"
+                data-aos="fade-down"
+                data-aos-delay="1100"
+              >
+                <div class="app__flex">
+                  <img src="images/figma-logo.png" alt="Figma Logo" />
+                </div>
+                <p class="p-text skills-text">MongoDB</p>
+              </div>
+              <div
+                class="app__skills-item app__flex"
+                data-aos="fade-down"
+                data-aos-delay="1200"
+              >
+                <div class="app__flex">
+                  <img src="images/git-logo.png" alt="Git Logo" />
+                </div>
+                <p class="p-text skills-text">Git</p>
+              </div>
+              <div
+                class="app__skills-item app__flex"
+                data-aos="fade-down"
+                data-aos-delay="1300"
+              >
+                <div class="app__flex">
+                  <img src="images/php-logo.png" alt="PHP Logo" />
+                </div>
+                <p class="p-text skills-text">PHP</p>
+              </div>
+              <div
+                class="app__skills-item app__flex"
+                data-aos="fade-down"
+                data-aos-delay="1400"
+              >
+                <div class="app__flex">
+                  <img src="images/java-logo.png" alt="Java Logo" />
+                </div>
+                <p class="p-text skills-text">Java</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification__section section">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="200">
+          Qualification
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="200"
+          >My Education Background</span
+        >
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div
+                  class="qualification__content-1"
+                  data-aos="fade-right"
+                  data-aos-delay="500"
+                >
+                  <h3 class="qualification__title">
+                    BS in Information Technology
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >Saint Louis College, La Union</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 - Present
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+
+                <div
+                  class="qualification__content-2"
+                  data-aos="fade-left"
+                  data-aos-delay="800"
+                >
+                  <h3 class="qualification__title">Senior High School</h3>
+                  <span class="qualification__subtitle"
+                    >Lord of Zion Divine School, La Union</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2020-2022
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="200">
+          Portfolio
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="200"
+          >Most recent works</span
+        >
+
+        <div
+          class="portfolio__container container swiper-container"
+          data-aos="fade-right"
+          data-aos-delay="800"
+        >
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./images/hydroflask-website.png"
+                alt="Hydroflask Website"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title">HydroFlask Website</h3>
+                <p class="portfolio__description">
+                  This meticulously crafted website, built with HTML, CSS, and
+                  Javascript, showcases the beauty and functionality of
+                  HydroFlask products.
+                </p>
+                <a
+                  href="https://659fbb46c4663254fd1c1d56--stellar-cascaron-be0333.netlify.app/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./images/the-guide-to-stoicism-website.png"
+                alt="The Guide to Stoicism Website"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title">The Guide to Stoicism</h3>
+                <p class="portfolio__description">
+                  Introducing "The Guide to Stoicism" - your source of wisdom
+                  and guidance for inner peace. Built with React, toast
+                  notifications, and an advice generator API, this website
+                  offers curated quotes and teachings from Stoic philosophers.
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./images/age-calculator-website.png"
+                alt="Age Calculator Website"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title">Age Calculator</h3>
+                <p class="portfolio__description">
+                  Introducing "Age Calculator" - a simple yet powerful website
+                  built with HTML, CSS, and JavaScript. This handy tool allows
+                  you to effortlessly calculate your age with just a few clicks.
+                </p>
+                <a
+                  href="https://cheesepandesal.github.io/Age-Calculator/"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== PORTFOLIO 4 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./images/worque-website.png"
+                alt="Worque Website"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title">Worque</h3>
+                <p class="portfolio__description">
+                  Introducing "Worque" - a simple landing page with animations
+                  built with HTML, CSS, JavaScript, and AOS for animation.
+                </p>
+                <a
+                  href="https://cheesepandesal.github.io/worque/"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 5 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./images/workit-website.png"
+                alt="Workit Landing Page"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title">Workit Landing Page</h3>
+                <p class="portfolio__description">
+                  Introducing "Worque" - a simple landing page built with HTML,
+                  CSS, and Javascript.
+                </p>
+                <a
+                  href="https://659fc01353c921596e26c437--lucky-pika-39c29b.netlify.app/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- add arrows-->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section
+        class="contact section"
+        id="contact"
+        data-aos="fade-right"
+        data-aos-delay="500"
+      >
+        <h2 class="section__title">Get in touch</h2>
+        <div class="container text-center mt-5">
+          <span class="contact__description"
+            >Whether you have a question, want to share feedback, or simply want
+            to say hi, my inbox is always open. I value open communication and
+            will do my best to respond to your message as soon as possible.
+            Looking forward to hearing from you!</span
+          >
+        </div>
+        <div class="contact__container container button__container mt-24">
+          <a class="contact__button" href="mailto:htaningco@gmail.com"
+            >Say Hi</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <span class="footer__content">Built by Justine Harvey Taningco</span>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!--==================== AOS ANIMATION ====================-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 100,
+      });
+    </script>
+    <!--==================== SWIPER JS ====================-->
+    <script src="./swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./main.js"></script>
+  </body>
+</html>
