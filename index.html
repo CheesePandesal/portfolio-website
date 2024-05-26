@@ -16,7 +16,7 @@
       property="og:description"
       content="Explore my portfolio and discover how I develop user-friendly websites and deliver exceptional digital experiences. Let's collaborate and bring your ideas to life."
     />
-    <meta property="og:image" content="images/hero-img.png">
+    <meta property="og:image" content="images/hero-img.png" />
     <!--==================== UNICONS ====================-->
     <link
       rel="stylesheet"
@@ -113,7 +113,6 @@
             class="button button--flex home__button"
             data-aos="fade-up"
             data-aos-delay="800"
-            
           >
             Contact Me<i class="uil uil-message button__icon"></i>
           </a>
@@ -154,7 +153,11 @@
             </p>
 
             <div class="about__buttons">
-              <a class="button button--flex home__button" href="resume.pdf" download="Justine-Harvey-Taningco-CV">
+              <a
+                class="button button--flex home__button"
+                href="resume.pdf"
+                download="Justine-Harvey-Taningco-CV"
+              >
                 Download CV<i class="uil uil-download-alt button__icon"></i>
               </a>
             </div>
@@ -274,6 +277,36 @@
                 </div>
                 <p class="p-text skills-text">Java</p>
               </div>
+              <div
+                class="app__skills-item app__flex"
+                data-aos="fade-down"
+                data-aos-delay="700"
+              >
+                <div class="app__flex">
+                  <img src="images/Firebase-icon.png" alt="" />
+                </div>
+                <p class="p-text skills-text">Firebase</p>
+              </div>
+              <div
+                class="app__skills-item app__flex"
+                data-aos="fade-down"
+                data-aos-delay="700"
+              >
+                <div class="app__flex">
+                  <img src="images/mysql.png" alt="" />
+                </div>
+                <p class="p-text skills-text">MySQL</p>
+              </div>
+              <div
+                class="app__skills-item app__flex"
+                data-aos="fade-down"
+                data-aos-delay="700"
+              >
+                <div class="app__flex">
+                  <img src="images/node-js.png" alt="" />
+                </div>
+                <p class="p-text skills-text">Node.js</p>
+              </div>
             </div>
           </div>
         </div>
@@ -378,20 +411,22 @@
 
             <div class="portfolio__content grid swiper-slide">
               <img
-                src="./images/hydroflask-website.png"
-                alt="Hydroflask Website"
+                src="./images/todoo.png"
+                alt="Todoo Website"
                 class="portfolio__img"
               />
 
               <div class="portfolio_">
-                <h3 class="portfolio__title">HydroFlask Website</h3>
+                <h3 class="portfolio__title">Todoo.</h3>
                 <p class="portfolio__description">
-                  This meticulously crafted website, built with HTML, CSS, and
-                  Javascript, showcases the beauty and functionality of
-                  HydroFlask products.
+                  Todoo is a simple to-do list application developed with
+                  React.js and styled with Tailwind CSS. It is powered by
+                  Firebase on the backend. Todo uses Firestore as its database
+                  for scalability. It is integrated with Google Provider
+                  authentication for secure access.
                 </p>
                 <a
-                  href="https://659fbb46c4663254fd1c1d56--stellar-cascaron-be0333.netlify.app/"
+                  href="https://todo-application-6c7c2.web.app/"
                   class="button button--flex button--small portfolio__button"
                   target="_blank"
                 >
@@ -479,26 +514,28 @@
                 </a>
               </div>
             </div>
-
             <!--==================== PORTFOLIO 5 ====================-->
 
             <div class="portfolio__content grid swiper-slide">
               <img
-                src="./images/workit-website.png"
-                alt="Workit Landing Page"
+                src="./images/salin.png"
+                alt="Salin"
                 class="portfolio__img"
               />
 
               <div class="portfolio_">
-                <h3 class="portfolio__title">Workit Landing Page</h3>
+                <h3 class="portfolio__title">Salin</h3>
                 <p class="portfolio__description">
-                  Introducing "Worque" - a simple landing page built with HTML,
-                  CSS, and Javascript.
+                  Built with React.js and styled with Tailwind CSS, Salin offers
+                  a sleek and intuitive user interface that ensures a seamless
+                  translation experience. The integration of a robust
+                  translation API enables Salin to provide accurate and reliable
+                  translations across multiple languages.
                 </p>
                 <a
-                  href="https://659fc01353c921596e26c437--lucky-pika-39c29b.netlify.app/"
-                  class="button button--flex button--small portfolio__button"
+                  href="https://cheesepandesal.github.io/worque/"
                   target="_blank"
+                  class="button button--flex button--small portfolio__button"
                 >
                   Demo
                   <i class="uil uil-arrow-right button__icon"></i>
